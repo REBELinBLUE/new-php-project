@@ -1,6 +1,4 @@
 {
-    "name": "rebelinblue/app",
-    "description": "",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -24,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "REBELinBLUE\\App\\": "src/"
+            "{{ NAMESPACE }}\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "REBELinBLUE\\App\\Tests\\": "tests/"
+            "{{ NAMESPACE }}\\Tests\\": "tests/"
         }
     },
     "config": {
