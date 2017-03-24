@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "{{ NAMESPACE }}\\": "src/"
+            "{{namespace}}\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "{{ NAMESPACE }}\\Tests\\": "tests/"
+            "{{namespace}}\\Tests\\": "tests/"
         }
     },
     "config": {
